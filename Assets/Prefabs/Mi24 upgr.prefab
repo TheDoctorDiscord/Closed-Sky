@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3327373247199468653
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 311745023493878583, guid: a7f6fa1e729681747982314e470f116a, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 311745023493878583, guid: a7f6fa1e729681747982314e470f116a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 311745023493878583, guid: a7f6fa1e729681747982314e470f116a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 311745023493878583, guid: a7f6fa1e729681747982314e470f116a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 311745023493878583, guid: a7f6fa1e729681747982314e470f116a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 311745023493878583, guid: a7f6fa1e729681747982314e470f116a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 311745023493878583, guid: a7f6fa1e729681747982314e470f116a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 311745023493878583, guid: a7f6fa1e729681747982314e470f116a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 311745023493878583, guid: a7f6fa1e729681747982314e470f116a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 311745023493878583, guid: a7f6fa1e729681747982314e470f116a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -180
+      objectReference: {fileID: 0}
+    - target: {fileID: 311745023493878583, guid: a7f6fa1e729681747982314e470f116a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2401119477972595899, guid: a7f6fa1e729681747982314e470f116a, type: 3}
+      propertyPath: m_Name
+      value: Mi24 upgr
+      objectReference: {fileID: 0}
+    - target: {fileID: 2826774690794512398, guid: a7f6fa1e729681747982314e470f116a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 324493c780db27a4ba02b9de132980b6, type: 2}
+    m_RemovedComponents:
+    - {fileID: 0}
+    - {fileID: -6495890084216601506, guid: a7f6fa1e729681747982314e470f116a, type: 3}
+    - {fileID: 3529921483426585961, guid: a7f6fa1e729681747982314e470f116a, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: a7f6fa1e729681747982314e470f116a, type: 3}
+--- !u!1 &1116691665967753430 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2401119477972595899, guid: a7f6fa1e729681747982314e470f116a, type: 3}
+  m_PrefabInstance: {fileID: 3327373247199468653}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &-8636538119128470383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1116691665967753430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5d7f7b0a6ad7fa44842522575446837, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Waypoints: []
+  Speed: 3
+  curWaypoint: 0
+  Patrol: 1
+  Target: {x: 0, y: 0, z: 0}
+  MoveDirection: {x: 0, y: 0, z: 0}
+  Velocity: {x: 0, y: 0, z: 0}
+  attackdamage: 1
+--- !u!114 &3865676255111020823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1116691665967753430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f251985c9789b5429357c9a258c5430, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ScoreBox: {fileID: 8699853108461411559, guid: ebbd649c581b8ee4fb50d4c35c86f418, type: 3}
+  LvlBox: {fileID: 2332057606507727166, guid: 314b50efc82fe95478fe8f8e0540f889, type: 3}
+  HP: 100
